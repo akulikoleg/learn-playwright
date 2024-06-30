@@ -48,7 +48,7 @@
         "testDir": "C:/Users/Oleg Aculov/Documents/PASVdocuments/learn-playwright",
         "testIgnore": [],
         "testMatch": [
-          "tests/windows.test.ts"
+          "tests/demoQA/datepicker.spec.ts"
         ],
         "timeout": 30000
       }
@@ -61,13 +61,13 @@
   },
   "suites": [
     {
-      "title": "tests\\windows.test.ts",
-      "file": "tests/windows.test.ts",
+      "title": "tests\\demoQA\\datepicker.spec.ts",
+      "file": "tests/demoQA/datepicker.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Interact with windows",
+          "title": "Calendar demoQA using moment",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,58 +81,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 3642,
+                  "duration": 13919,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "No of pages:3\n"
-                    },
-                    {
-                      "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
-                    },
-                    {
-                      "text": "https://www.facebook.com/lambdatest/\n"
-                    },
-                    {
-                      "text": "https://x.com/intent/follow?screen_name=Lambdatesting&mx=2\n"
-                    },
-                    {
-                      "text": "LambdaTest \n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-06-30T02:17:14.040Z",
+                  "startTime": "2024-06-30T19:42:01.486Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\tests-windows-Interact-with-windows\\test-finished-1.png"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\tests-windows-Interact-with-windows\\test-finished-2.png"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\tests-windows-Interact-with-windows\\test-finished-3.png"
+                      "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\tests-demoQA-datepicker-Calendar-demoQA-using-moment\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\tests-windows-Interact-with-windows\\video-1.webm"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\tests-windows-Interact-with-windows\\video-2.webm"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\tests-windows-Interact-with-windows\\video.webm"
+                      "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\tests-demoQA-datepicker-Calendar-demoQA-using-moment\\video.webm"
                     }
                   ]
                 }
@@ -140,9 +104,9 @@
               "status": "expected"
             }
           ],
-          "id": "98c21ebe87e39c315e15-f36f65bc578e9d5c1ac2",
-          "file": "tests/windows.test.ts",
-          "line": 3,
+          "id": "31d42ab3e64adfd293da-c0b5df810a3d3cb46fbe",
+          "file": "tests/demoQA/datepicker.spec.ts",
+          "line": 5,
           "column": 5
         }
       ]
@@ -150,8 +114,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-06-30T02:17:13.537Z",
-    "duration": 5698.051,
+    "startTime": "2024-06-30T19:42:00.992Z",
+    "duration": 15047.166,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
