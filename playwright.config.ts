@@ -1,7 +1,7 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-   testMatch: ["tests/demoQA/datepicker.spec.ts"],
+   testMatch: ["tests/uploadDownload.test.ts"],
     use: {
       headless: false,
       screenshot: "on",
