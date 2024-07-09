@@ -48,7 +48,7 @@
         "testDir": "C:/Users/Oleg Aculov/Documents/PASVdocuments/learn-playwright",
         "testIgnore": [],
         "testMatch": [
-          "POMtest/addToCart.test.ts"
+          "POMtest/addToCartUsingFixture.test.ts"
         ],
         "timeout": 30000
       }
@@ -61,16 +61,16 @@
   },
   "suites": [
     {
-      "title": "POMtest\\addToCart.test.ts",
-      "file": "POMtest/addToCart.test.ts",
+      "title": "POMtest\\addToCartUsingFixture.test.ts",
+      "file": "POMtest/addToCartUsingFixture.test.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Page object test demo",
-          "file": "POMtest/addToCart.test.ts",
-          "line": 10,
+          "file": "POMtest/addToCartUsingFixture.test.ts",
+          "line": 5,
           "column": 6,
           "specs": [
             {
@@ -88,22 +88,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 11560,
+                      "duration": 3599,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-07-09T02:12:09.108Z",
+                      "startTime": "2024-07-09T04:42:57.193Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCart-Page-object-test-demo-Register-test-01\\test-finished-1.png"
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-46186--test-demo-Register-test-01\\test-finished-1.png"
                         },
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCart-Page-object-test-demo-Register-test-01\\video.webm"
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-46186--test-demo-Register-test-01\\video.webm"
                         }
                       ]
                     }
@@ -111,9 +111,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "6d98a1ca53bb2c59b0cf-41b71a9b4f9e9d4e7cfc",
-              "file": "POMtest/addToCart.test.ts",
-              "line": 12,
+              "id": "e086014095f8750ba7e7-811d088e5470193266d5",
+              "file": "POMtest/addToCartUsingFixture.test.ts",
+              "line": 7,
               "column": 9
             },
             {
@@ -131,22 +131,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 5868,
+                      "duration": 2323,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-07-09T02:12:21.060Z",
+                      "startTime": "2024-07-09T04:43:01.154Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCart-Page-object-test-demo-Login-test-02\\test-finished-1.png"
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-ef0fb-ect-test-demo-Login-test-02\\test-finished-1.png"
                         },
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCart-Page-object-test-demo-Login-test-02\\video.webm"
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-ef0fb-ect-test-demo-Login-test-02\\video.webm"
                         }
                       ]
                     }
@@ -154,9 +154,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "6d98a1ca53bb2c59b0cf-3dc0b341f287470cf67b",
-              "file": "POMtest/addToCart.test.ts",
-              "line": 31,
+              "id": "e086014095f8750ba7e7-9fb0d96cc14e1cde3452",
+              "file": "POMtest/addToCartUsingFixture.test.ts",
+              "line": 22,
               "column": 9
             },
             {
@@ -174,22 +174,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 11103,
+                      "duration": 5632,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-07-09T02:12:27.049Z",
+                      "startTime": "2024-07-09T04:43:03.579Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCart-Page-object-test-demo-Add-to-cart-test-03\\test-finished-1.png"
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-e6e57-st-demo-Add-to-cart-test-03\\test-finished-1.png"
                         },
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCart-Page-object-test-demo-Add-to-cart-test-03\\video.webm"
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-e6e57-st-demo-Add-to-cart-test-03\\video.webm"
                         }
                       ]
                     }
@@ -197,9 +197,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "6d98a1ca53bb2c59b0cf-954e78770dc0d08bd2be",
-              "file": "POMtest/addToCart.test.ts",
-              "line": 43,
+              "id": "e086014095f8750ba7e7-3581a3d46d543f22db78",
+              "file": "POMtest/addToCartUsingFixture.test.ts",
+              "line": 33,
               "column": 9
             }
           ]
@@ -209,8 +209,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-07-09T02:12:08.564Z",
-    "duration": 30036.604,
+    "startTime": "2024-07-09T04:42:56.759Z",
+    "duration": 12933.454,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,
