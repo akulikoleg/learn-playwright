@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "reporter": [
@@ -43,8 +43,22 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {},
-        "id": "",
-        "name": "",
+        "id": "chrome:latest:MacOS Ventura@lambdatest",
+        "name": "chrome:latest:MacOS Ventura@lambdatest",
+        "testDir": "C:/Users/Oleg Aculov/Documents/PASVdocuments/learn-playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "POMtest/addToCartUsingFixture.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Oleg Aculov/Documents/PASVdocuments/learn-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chrome:latest:Windows 11@lambdatest",
+        "name": "chrome:latest:Windows 11@lambdatest",
         "testDir": "C:/Users/Oleg Aculov/Documents/PASVdocuments/learn-playwright",
         "testIgnore": [],
         "testMatch": [
@@ -70,40 +84,64 @@
         {
           "title": "Page object test demo",
           "file": "POMtest/addToCartUsingFixture.test.ts",
-          "line": 5,
+          "line": 9,
           "column": 6,
           "specs": [
             {
               "title": "Register test _01",
               "ok": true,
-              "tags": [],
+              "tags": [
+                "lambdatest"
+              ],
               "tests": [
                 {
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
+                  "projectId": "chrome:latest:MacOS Ventura@lambdatest",
+                  "projectName": "chrome:latest:MacOS Ventura@lambdatest",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 3599,
+                      "duration": 5769,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-07-09T04:42:57.193Z",
+                      "startTime": "2024-07-14T21:19:35.908Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-46186--test-demo-Register-test-01\\test-finished-1.png"
-                        },
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-46186--test-demo-Register-test-01-chrome-latest-MacOS-Ventura-lambdatest\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome:latest:Windows 11@lambdatest",
+                  "projectName": "chrome:latest:Windows 11@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 20190,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-07-14T21:19:35.898Z",
+                      "attachments": [
                         {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-46186--test-demo-Register-test-01\\video.webm"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-46186--test-demo-Register-test-01-chrome-latest-Windows-11-lambdatest\\test-finished-1.png"
                         }
                       ]
                     }
@@ -111,42 +149,66 @@
                   "status": "expected"
                 }
               ],
-              "id": "e086014095f8750ba7e7-811d088e5470193266d5",
+              "id": "e086014095f8750ba7e7-2b643929012f702377ba",
               "file": "POMtest/addToCartUsingFixture.test.ts",
-              "line": 7,
+              "line": 12,
               "column": 9
             },
             {
               "title": "Login test_02",
               "ok": true,
-              "tags": [],
+              "tags": [
+                "lambdatest"
+              ],
               "tests": [
                 {
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
+                  "projectId": "chrome:latest:MacOS Ventura@lambdatest",
+                  "projectName": "chrome:latest:MacOS Ventura@lambdatest",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2323,
+                      "duration": 15319,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-07-09T04:43:01.154Z",
+                      "startTime": "2024-07-14T21:19:42.185Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-ef0fb-ect-test-demo-Login-test-02\\test-finished-1.png"
-                        },
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-ef0fb-ect-test-demo-Login-test-02-chrome-latest-MacOS-Ventura-lambdatest\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome:latest:Windows 11@lambdatest",
+                  "projectName": "chrome:latest:Windows 11@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 26394,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-07-14T21:19:56.617Z",
+                      "attachments": [
                         {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-ef0fb-ect-test-demo-Login-test-02\\video.webm"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-ef0fb-ect-test-demo-Login-test-02-chrome-latest-Windows-11-lambdatest\\test-finished-1.png"
                         }
                       ]
                     }
@@ -154,42 +216,66 @@
                   "status": "expected"
                 }
               ],
-              "id": "e086014095f8750ba7e7-9fb0d96cc14e1cde3452",
+              "id": "e086014095f8750ba7e7-ea454fcc419f59280fbc",
               "file": "POMtest/addToCartUsingFixture.test.ts",
-              "line": 22,
+              "line": 27,
               "column": 9
             },
             {
               "title": "Add to cart test_03",
               "ok": true,
-              "tags": [],
+              "tags": [
+                "lambdatest"
+              ],
               "tests": [
                 {
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
+                  "projectId": "chrome:latest:MacOS Ventura@lambdatest",
+                  "projectName": "chrome:latest:MacOS Ventura@lambdatest",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 5632,
+                      "duration": 15546,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-07-09T04:43:03.579Z",
+                      "startTime": "2024-07-14T21:19:57.842Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-e6e57-st-demo-Add-to-cart-test-03\\test-finished-1.png"
-                        },
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-e6e57-st-demo-Add-to-cart-test-03-chrome-latest-MacOS-Ventura-lambdatest\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome:latest:Windows 11@lambdatest",
+                  "projectName": "chrome:latest:Windows 11@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 19093,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-07-14T21:20:23.233Z",
+                      "attachments": [
                         {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-e6e57-st-demo-Add-to-cart-test-03\\video.webm"
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Oleg Aculov\\Documents\\PASVdocuments\\learn-playwright\\test-results\\POMtest-addToCartUsingFixt-e6e57-st-demo-Add-to-cart-test-03-chrome-latest-Windows-11-lambdatest\\test-finished-1.png"
                         }
                       ]
                     }
@@ -197,9 +283,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "e086014095f8750ba7e7-3581a3d46d543f22db78",
+              "id": "e086014095f8750ba7e7-aaa18d6d7b9c84edb8e2",
               "file": "POMtest/addToCartUsingFixture.test.ts",
-              "line": 33,
+              "line": 38,
               "column": 9
             }
           ]
@@ -209,9 +295,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-07-09T04:42:56.759Z",
-    "duration": 12933.454,
-    "expected": 3,
+    "startTime": "2024-07-14T21:19:35.409Z",
+    "duration": 67268.083,
+    "expected": 6,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

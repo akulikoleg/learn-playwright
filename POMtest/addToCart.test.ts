@@ -9,9 +9,9 @@ const password = 'aleks123123'
 
 test.describe("Page object test demo", async () => {
 
-    test("Register test _01", async ({page, baseURL}) => {
+    test("Register test _01", async ({page, baseURL}, testInfo) => {
 
-    
+        console.log('TITLE: ' + testInfo.title)
     
         const register = new RegisterPage(page);
         await page.goto(`${baseURL}route=account/register`);
@@ -24,7 +24,7 @@ test.describe("Page object test demo", async () => {
         expect(register.isSubscribeCheck()).toBeTruthy();
         await register.clickTermsAndConditions();
         await register.clickContinueToRegister();    
-          
+        console.log(testInfo.status);
     
     })
     

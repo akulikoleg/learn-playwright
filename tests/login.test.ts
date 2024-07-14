@@ -1,11 +1,29 @@
 import {test,  chromium} from "@playwright/test"
 
 
+
+    const capabilities = {
+      'browserName': 'Chrome', // Browsers allowed: `Chrome`, `MicrosoftEdge`, `pw-chromium`, `pw-firefox` and `pw-webkit`
+      'browserVersion': 'latest',
+      'LT:Options': {
+        'platform': 'Windows 10',
+        'build': 'Playwright Sample Build',
+        'name': 'Playwright Sample Test',
+        'user': "oaculov",
+        'accessKey': "yBTDtRZcRLMmSIwUEjpQ77ee2rVteXSK9hBUravlgKc09e27mv",
+        'network': true,
+        'video': true,
+        'console': true
+      }
+    }
+
+
+
 test("Login test demo", async () => {
 
-        const browser = await chromium.launch({
-            headless: false
-        });
+        const browser = await await chromium.connect({
+            wsEndpoint: `wss://cdp.lambdatest.com/playwright?capabilities=${encodeURIComponent(JSON.stringify(capabilities))}`
+          })
         const context = await browser.newContext();
         const page = await context.newPage();
 
@@ -18,13 +36,19 @@ test("Login test demo", async () => {
         await page.fill('//input[@placeholder=\'Password\']', "Pass123$");
         await page.click("//input[@value=\"Login\"]");
 
-        await page.waitForTimeout(5000);
 
-        const newContext = await browser.newContext();
+        await page.close();
+        await context.close();
+        await browser.close();
 
-        const newpage = await newContext.newPage();
-        await newpage.goto('https://ecommerce-playground.lambdatest.io/index.php?route=account/account');
 
-        await newpage.waitForTimeout(5000);
+        // await page.waitForTimeout(5000);
+
+        // const newContext = await browser.newContext();
+
+        // const newpage = await newContext.newPage();
+        // await newpage.goto('https://ecommerce-playground.lambdatest.io/index.php?route=account/account');
+
+        // await newpage.waitForTimeout(5000);
 
 })
